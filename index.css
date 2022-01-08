@@ -1,0 +1,145 @@
+body {
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: aliceblue;
+  align-items: center;
+}
+
+button {
+  font-size: large;
+  font-weight: bold;
+  width: 15ch;
+  padding: 10px 14px;
+  color: cadetblue;
+}
+
+input {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  width: 15ch;
+  padding: 10px 14px;
+  background-color: rgb(85, 10, 10);
+}
+
+#row{
+  overflow: hidden;
+
+
+}
+
+#text{
+  text-decoration-line: underline;
+  text-decoration-color: rgb(129, 121, 134);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+  animation-name: welcome;
+  animation-delay: 1s;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  
+
+}
+
+#btAuhtor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 20px;
+  border-width: 5pt;
+  animation-name: btAnimation;
+  animation-delay: 0s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes btAnimation {
+  50% {
+    background-color: gold;
+    color: black;
+    transform: translatey(80%);
+  }
+
+  20% {
+    background-color: blue;
+    color: white;
+    transform: translatey(200%);
+  }
+
+  50% {
+    background-color: rgb(240, 159, 9);
+    color: white;
+    transform: translatex(100%);
+  }
+}
+
+@keyframes btGame {
+
+
+  50%{
+    transform: translateX(100%);
+  }
+
+  100%{
+    transform: translateX(200%);
+  }
+
+
+  50% {
+    background-color: rgb(26, 22, 3);
+    color: rgb(241, 237, 237);
+    transform: translatey(80%);
+  }
+
+  40% {
+    background-color: rgb(8, 8, 5);
+    color: white;
+    transform: translatey(80%);
+  }
+
+
+}
+
+
+
+#btAuhtor:hover {
+  animation-play-state: paused;
+}
+
+@keyframes welcome {
+
+from{
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-animation: RightThenLeft ;
+}
+
+to{
+  -webkit-transform: translateX(20%);
+ 
+}
+
+}
+
+#btGames{
+-moz-box-align: center;
+  font-size: large;
+  font-weight: bold;
+  width: 15ch;
+  padding: 10px 14px;
+  color: blue;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 20px;
+
+  animation-name: btGame;
+
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}

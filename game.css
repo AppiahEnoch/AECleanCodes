@@ -1,0 +1,139 @@
+body {
+  background-color: cyan;
+}
+.d1 {
+  width: 100%;
+  background-color: rgb(205, 166, 241);
+}
+h1 {
+  color: darkblue;
+
+  animation-name: mh1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+h1:hover{
+    animation-play-state: paused;  
+}
+
+@keyframes mh1 {
+  10% {
+    color: darkmagenta;
+    font-size: 50px;
+  }
+  100% {
+    color: blueviolet;
+  }
+
+  100% {
+    color: rgb(6, 21, 233);
+    background-color: cyan;
+  }
+
+  10% {
+    color: rgb(42, 8, 73);
+    font-size: 20px;
+  }
+  10% {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(232, 231, 238);
+  }
+}
+.d11 {
+  align-items: center;
+  width: 500px;
+  margin: 10px;
+}
+
+button {
+  width: 100px;
+  height: 80px;
+
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+#btTic {
+  color: blue;
+  background-color: black;
+  float: right;
+
+  animation-name: tic;
+  animation-iteration-count: infinite;
+  animation-duration:  5s;
+}
+
+#btCalc {
+  width: 150px;
+  background-color: red;
+  color: white;
+  float: left;
+  animation-name: mcalcu;
+  animation-iteration-count: infinite;
+  animation-duration:  5s;
+}
+
+@keyframes tic {
+  100% {
+    transform: translatey(-100%);
+
+  }
+
+  10% {
+    transform: translatey(500%);
+    background-color: yellow;
+    color: black;
+  }
+
+  0% {
+    transform: translatey(500%);
+    background-color: transparent
+   
+  }
+}
+
+
+@keyframes mcalcu{
+    100%{
+        transform: translatex(10%);
+    
+    }
+
+    10%{
+        transform: translateX(500%);
+    }
+}
+
+
+button:hover{
+    animation-play-state: paused;
+}
+
+@keyframes mult1 {
+
+  
+    50% {
+      transform: translatey(500%);
+      background-color: yellow;
+      color: black;
+    }
+  
+   50% {
+      transform: translatey(500%);
+    }
+
+    10% {
+        transform: translatex(500%);
+      }
+  }
+  
+
+  #btMult{
+    animation-name: mult1;
+    animation-iteration-count: infinite;
+    animation-duration:  5s; 
+  }
