@@ -4,8 +4,9 @@ function getUserInput(){
 
     let response=document.querySelector("#response")
     userInput.value=''
+    alert("AECleanCodes")
     
-    response.innerHTML="YOU ENTERED "+realInput;
+    response.innerHTML="you entered:  "+realInput;
    
 
     
