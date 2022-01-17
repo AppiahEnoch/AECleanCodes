@@ -1,0 +1,144 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+
+  
+body {
+    background-color: black;
+  
+  
+  }
+  h1 {
+    color: blue;
+    animation-name: ah1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ah1 {
+    40% {
+      transform: translateX(-80%);
+    }
+  
+    10% {
+      transform: translateX(100%);
+    }
+  }
+  
+  
+  .rectangle1{
+  
+      background-color: blue;
+      width: 350px;
+      height:320px;
+  
+      position: absolute;
+      z-index: 15;
+      top: 40%;
+      left: 50%;
+      margin: -100px 0 0 -150px;
+   
+  /* elements */
+  
+  padding: 10px;
+  
+  }
+  
+  .rectangle2{
+      
+      background-color: rgb(137, 137, 241);
+      width: 98%;
+      height:80px;
+  }
+  
+  .txtID{
+      width: 100%;
+      height: 80px;
+      text-align: center;
+      font-size: 25px;
+      font: bold;
+      color: blue;
+  }
+  h1:hover{
+    animation-play-state: paused;
+  }
+  
+  .num{
+  margin: 3px;
+    width: 60px;
+    height: 40px;
+    font-weight:900;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+  
+  }
+  
+  .keys{
+    width: 346px;
+  margin-top: 40px;
+  
+  background-color: rgb(23, 5, 187);
+  
+  
+  }
+  #btE{
+    width: 57.5%;
+  }
+  #btDel{
+    background-color: black;
+  }
+  #btAC{
+    background-color: black;
+  }
+  #btM{
+    background-color: black;
+  }
+  #btD{
+    background-color: black;
+  }
+  #btP{
+    background-color: black;
+  }
+  #btM{
+    background-color: black;
+  }
+  #btT{
+    background-color: black;
+  }
+  
+  
+  #btT:hover{
+    background-color:rgb(0, 0, 158);
+  }
+  #btM:hover{
+    background-color:rgb(0, 0, 158);
+  }
+  #btD:hover{
+    background-color:rgb(0, 0, 158);
+  }
+  #btP:hover{
+    background-color:rgb(0, 0, 158);
+  }
+  #btDel:hover{
+    background-color:rgb(0, 0, 158);
+  }
+  #btAC:hover{
+    background-color:rgb(0, 0, 158);
+  }
+  
+  button:hover{
+  background-color:rgb(0, 0, 158);
+  }
+  b{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+    
+  
+
+
+
+    
+  }
