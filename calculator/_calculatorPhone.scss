@@ -1,11 +1,39 @@
+
+
 @media (min-width: 200px) {
   body {
     background-color: black;
 
-    margin: 10px;
+  }
+
+  #AE{
+    color: whitesmoke;
+  }
+
+      
+  #btHome{
+    margin-bottom: 2rem;
+    background-color:blue;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    &:hover{
+      background-color: red;
+    }
+  }
+
+  
+
+  main{
+    background-color:blue;
+padding: 10px;
+  
+
   }
 
   h1 {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
     color: blue;
     -webkit-animation-name: ah1;
     animation-name: ah1;
@@ -33,24 +61,28 @@
     }
   }
   .rectangle1 {
-    background-color: darkblue;
-    top: 20%;
+    background-color:transparent;
+
     width: 100%;
-    height: 100%;
+    height: 70vh;
+   
   }
 
-  .rectangle2 {
-    background-color: #8989f1;
-    width: 98%;
-    height: 80px;
-  }
+
+
+
 
   .txtID {
+    padding: 0.2em;
+    box-sizing: border-box;
     width: 100%;
-    height: 100%;
+
+    width: 100%;
+    height: 4em;
     text-align: center;
     font-size: 25px;
     font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
   }
 
@@ -59,19 +91,26 @@
     animation-play-state: paused;
   }
 
+  $buttonSize: 18%;
   .num {
-    width: 18%;
-    height: 30px;
+    width: $buttonSize;
+    height: $buttonSize;
+  
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1em;
     background-color: blueviolet;
     color: white;
+
   }
 
   .keys {
     width: 100%;
-    margin-top: 30px;
-    background-color: blue;
+    height: 100%;
+ 
+    margin-top: 5px;
+    background-color: transparent
+ 
+
   }
 
   #btE {
